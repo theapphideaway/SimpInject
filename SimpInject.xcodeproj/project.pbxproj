@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E858D1328FF14F8008D4423 /* SimpInjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E858D1228FF14F8008D4423 /* SimpInjectApp.swift */; };
+		0E858D1528FF14F8008D4423 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E858D1428FF14F8008D4423 /* ContentView.swift */; };
+		0E858D1728FF14FA008D4423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E858D1628FF14FA008D4423 /* Assets.xcassets */; };
+		0E858D1A28FF14FA008D4423 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E858D1928FF14FA008D4423 /* Preview Assets.xcassets */; };
+		0E858D2428FF14FA008D4423 /* SimpInjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E858D2328FF14FA008D4423 /* SimpInjectTests.swift */; };
+		0E858D2E28FF14FA008D4423 /* SimpInjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E858D2D28FF14FA008D4423 /* SimpInjectUITests.swift */; };
+		0E858D3028FF14FA008D4423 /* SimpInjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E858D2F28FF14FA008D4423 /* SimpInjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E858D2028FF14FA008D4423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E858D0728FF14F8008D4423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E858D0E28FF14F8008D4423;
+			remoteInfo = SimpInject;
+		};
+		0E858D2A28FF14FA008D4423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E858D0728FF14F8008D4423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E858D0E28FF14F8008D4423;
+			remoteInfo = SimpInject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E858D0F28FF14F8008D4423 /* SimpInject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpInject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E858D1228FF14F8008D4423 /* SimpInjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpInjectApp.swift; sourceTree = "<group>"; };
+		0E858D1428FF14F8008D4423 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E858D1628FF14FA008D4423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E858D1928FF14FA008D4423 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E858D1F28FF14FA008D4423 /* SimpInjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpInjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E858D2328FF14FA008D4423 /* SimpInjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpInjectTests.swift; sourceTree = "<group>"; };
+		0E858D2928FF14FA008D4423 /* SimpInjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpInjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E858D2D28FF14FA008D4423 /* SimpInjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpInjectUITests.swift; sourceTree = "<group>"; };
+		0E858D2F28FF14FA008D4423 /* SimpInjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpInjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E858D0C28FF14F8008D4423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E858D1C28FF14FA008D4423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E858D2628FF14FA008D4423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E858D0628FF14F8008D4423 = {
+			isa = PBXGroup;
+			children = (
+				0E858D1128FF14F8008D4423 /* SimpInject */,
+				0E858D2228FF14FA008D4423 /* SimpInjectTests */,
+				0E858D2C28FF14FA008D4423 /* SimpInjectUITests */,
+				0E858D1028FF14F8008D4423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E858D1028FF14F8008D4423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E858D0F28FF14F8008D4423 /* SimpInject.app */,
+				0E858D1F28FF14FA008D4423 /* SimpInjectTests.xctest */,
+				0E858D2928FF14FA008D4423 /* SimpInjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E858D1128FF14F8008D4423 /* SimpInject */ = {
+			isa = PBXGroup;
+			children = (
+				0E858D1228FF14F8008D4423 /* SimpInjectApp.swift */,
+				0E858D1428FF14F8008D4423 /* ContentView.swift */,
+				0E858D1628FF14FA008D4423 /* Assets.xcassets */,
+				0E858D1828FF14FA008D4423 /* Preview Content */,
+			);
+			path = SimpInject;
+			sourceTree = "<group>";
+		};
+		0E858D1828FF14FA008D4423 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0E858D1928FF14FA008D4423 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E858D2228FF14FA008D4423 /* SimpInjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E858D2328FF14FA008D4423 /* SimpInjectTests.swift */,
+			);
+			path = SimpInjectTests;
+			sourceTree = "<group>";
+		};
+		0E858D2C28FF14FA008D4423 /* SimpInjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E858D2D28FF14FA008D4423 /* SimpInjectUITests.swift */,
+				0E858D2F28FF14FA008D4423 /* SimpInjectUITestsLaunchTests.swift */,
+			);
+			path = SimpInjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E858D0E28FF14F8008D4423 /* SimpInject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E858D3328FF14FA008D4423 /* Build configuration list for PBXNativeTarget "SimpInject" */;
+			buildPhases = (
+				0E858D0B28FF14F8008D4423 /* Sources */,
+				0E858D0C28FF14F8008D4423 /* Frameworks */,
+				0E858D0D28FF14F8008D4423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpInject;
+			productName = SimpInject;
+			productReference = 0E858D0F28FF14F8008D4423 /* SimpInject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E858D1E28FF14FA008D4423 /* SimpInjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E858D3628FF14FA008D4423 /* Build configuration list for PBXNativeTarget "SimpInjectTests" */;
+			buildPhases = (
+				0E858D1B28FF14FA008D4423 /* Sources */,
+				0E858D1C28FF14FA008D4423 /* Frameworks */,
+				0E858D1D28FF14FA008D4423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E858D2128FF14FA008D4423 /* PBXTargetDependency */,
+			);
+			name = SimpInjectTests;
+			productName = SimpInjectTests;
+			productReference = 0E858D1F28FF14FA008D4423 /* SimpInjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E858D2828FF14FA008D4423 /* SimpInjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E858D3928FF14FA008D4423 /* Build configuration list for PBXNativeTarget "SimpInjectUITests" */;
+			buildPhases = (
+				0E858D2528FF14FA008D4423 /* Sources */,
+				0E858D2628FF14FA008D4423 /* Frameworks */,
+				0E858D2728FF14FA008D4423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E858D2B28FF14FA008D4423 /* PBXTargetDependency */,
+			);
+			name = SimpInjectUITests;
+			productName = SimpInjectUITests;
+			productReference = 0E858D2928FF14FA008D4423 /* SimpInjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E858D0728FF14F8008D4423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					0E858D0E28FF14F8008D4423 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					0E858D1E28FF14FA008D4423 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 0E858D0E28FF14F8008D4423;
+					};
+					0E858D2828FF14FA008D4423 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 0E858D0E28FF14F8008D4423;
+					};
+				};
+			};
+			buildConfigurationList = 0E858D0A28FF14F8008D4423 /* Build configuration list for PBXProject "SimpInject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E858D0628FF14F8008D4423;
+			productRefGroup = 0E858D1028FF14F8008D4423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E858D0E28FF14F8008D4423 /* SimpInject */,
+				0E858D1E28FF14FA008D4423 /* SimpInjectTests */,
+				0E858D2828FF14FA008D4423 /* SimpInjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E858D0D28FF14F8008D4423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E858D1A28FF14FA008D4423 /* Preview Assets.xcassets in Resources */,
+				0E858D1728FF14FA008D4423 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E858D1D28FF14FA008D4423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E858D2728FF14FA008D4423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E858D0B28FF14F8008D4423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E858D1528FF14F8008D4423 /* ContentView.swift in Sources */,
+				0E858D1328FF14F8008D4423 /* SimpInjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E858D1B28FF14FA008D4423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E858D2428FF14FA008D4423 /* SimpInjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E858D2528FF14FA008D4423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E858D3028FF14FA008D4423 /* SimpInjectUITestsLaunchTests.swift in Sources */,
+				0E858D2E28FF14FA008D4423 /* SimpInjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E858D2128FF14FA008D4423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E858D0E28FF14F8008D4423 /* SimpInject */;
+			targetProxy = 0E858D2028FF14FA008D4423 /* PBXContainerItemProxy */;
+		};
+		0E858D2B28FF14FA008D4423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E858D0E28FF14F8008D4423 /* SimpInject */;
+			targetProxy = 0E858D2A28FF14FA008D4423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E858D3128FF14FA008D4423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E858D3228FF14FA008D4423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E858D3428FF14FA008D4423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpInject/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ianschoenrock.SimpInject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E858D3528FF14FA008D4423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpInject/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ianschoenrock.SimpInject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E858D3728FF14FA008D4423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ianschoenrock.SimpInjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpInject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpInject";
+			};
+			name = Debug;
+		};
+		0E858D3828FF14FA008D4423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ianschoenrock.SimpInjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpInject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpInject";
+			};
+			name = Release;
+		};
+		0E858D3A28FF14FA008D4423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ianschoenrock.SimpInjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpInject;
+			};
+			name = Debug;
+		};
+		0E858D3B28FF14FA008D4423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ianschoenrock.SimpInjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpInject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E858D0A28FF14F8008D4423 /* Build configuration list for PBXProject "SimpInject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E858D3128FF14FA008D4423 /* Debug */,
+				0E858D3228FF14FA008D4423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E858D3328FF14FA008D4423 /* Build configuration list for PBXNativeTarget "SimpInject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E858D3428FF14FA008D4423 /* Debug */,
+				0E858D3528FF14FA008D4423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E858D3628FF14FA008D4423 /* Build configuration list for PBXNativeTarget "SimpInjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E858D3728FF14FA008D4423 /* Debug */,
+				0E858D3828FF14FA008D4423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E858D3928FF14FA008D4423 /* Build configuration list for PBXNativeTarget "SimpInjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E858D3A28FF14FA008D4423 /* Debug */,
+				0E858D3B28FF14FA008D4423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E858D0728FF14F8008D4423 /* Project object */;
+}
