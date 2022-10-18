@@ -14,6 +14,8 @@
 		0E858D2428FF14FA008D4423 /* SimpInjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E858D2328FF14FA008D4423 /* SimpInjectTests.swift */; };
 		0E858D2E28FF14FA008D4423 /* SimpInjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E858D2D28FF14FA008D4423 /* SimpInjectUITests.swift */; };
 		0E858D3028FF14FA008D4423 /* SimpInjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E858D2F28FF14FA008D4423 /* SimpInjectUITestsLaunchTests.swift */; };
+		0E858D3D28FF16A1008D4423 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E858D3C28FF16A1008D4423 /* MainViewModel.swift */; };
+		0E858D3F28FF16F9008D4423 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E858D3E28FF16F9008D4423 /* DependencyContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		0E858D2928FF14FA008D4423 /* SimpInjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpInjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E858D2D28FF14FA008D4423 /* SimpInjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpInjectUITests.swift; sourceTree = "<group>"; };
 		0E858D2F28FF14FA008D4423 /* SimpInjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpInjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E858D3C28FF16A1008D4423 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		0E858D3E28FF16F9008D4423 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				0E858D1428FF14F8008D4423 /* ContentView.swift */,
 				0E858D1628FF14FA008D4423 /* Assets.xcassets */,
 				0E858D1828FF14FA008D4423 /* Preview Content */,
+				0E858D3C28FF16A1008D4423 /* MainViewModel.swift */,
+				0E858D3E28FF16F9008D4423 /* DependencyContainer.swift */,
 			);
 			path = SimpInject;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			files = (
 				0E858D1528FF14F8008D4423 /* ContentView.swift in Sources */,
 				0E858D1328FF14F8008D4423 /* SimpInjectApp.swift in Sources */,
+				0E858D3F28FF16F9008D4423 /* DependencyContainer.swift in Sources */,
+				0E858D3D28FF16A1008D4423 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

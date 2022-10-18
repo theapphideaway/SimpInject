@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct SimpInjectApp: App {
+    let container = DependencyContainer()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: container.makeViewModel())
         }
     }
 }
